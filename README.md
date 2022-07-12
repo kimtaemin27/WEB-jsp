@@ -1,2 +1,2 @@
 # WEB-jsp
-# 복습
+# self_study
