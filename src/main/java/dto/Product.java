@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class Product implements Serializable {
 	
+	public Product() {
+		super();
+	}
+	
 	private static final long serialVersionUTD = -42747005203867700L;
 	
 	// 상품 아이디
