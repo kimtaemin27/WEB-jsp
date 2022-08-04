@@ -26,6 +26,8 @@ public class Product implements Serializable {
 	private long unitsInStock;
 	// 신상품 or 중고품 or 재생품
 	private String condition;
+	// 이미지 파일명
+	private String filename;
 	
 	public String getProductId() {
 		return productId;
@@ -93,6 +95,14 @@ public class Product implements Serializable {
 
 	public static long getSerialversionutd() {
 		return serialVersionUTD;
+	}
+	
+	public String getFilename() {
+		return filename;
+	}
+
+	public void setFilename(String filename) {
+		this.filename = filename;
 	}
 
 	public Product(String productId, String pname, Integer unitPrice) {
