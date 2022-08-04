@@ -96,7 +96,7 @@ public class Product implements Serializable {
 	public static long getSerialversionutd() {
 		return serialVersionUTD;
 	}
-	
+
 	public String getFilename() {
 		return filename;
 	}
