@@ -18,7 +18,7 @@
 		</div>
 	</nav>
 	<%@ include file = "menu.jsp" %>
-	<%! String greeting = "웹 쇼핑몰에 오신 것을 환영합니다";
+	<%! String greeting = "Welcome to Web Shopping Mall";
 		 String tagline = "Welcome to Web Market"; 
 	%>
 	<%@ include file = "footer.jsp" %>
